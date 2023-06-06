@@ -5,11 +5,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { OpenCloseComponent } from './components/open-close/open-close.component';
+import { OpenCloseCssAnimComponent } from './components/open-close-css-anim/open-close-css-anim.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    OpenCloseComponent
+    OpenCloseComponent,
+    OpenCloseCssAnimComponent
   ],
   imports: [
     BrowserModule,
